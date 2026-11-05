@@ -1,0 +1,11 @@
+name: Validar y Simular un Deploy
+
+on:
+  push:
+    branches: ["master"]
+
+permissions:
+  contents: read
+
+jobs:
+  
